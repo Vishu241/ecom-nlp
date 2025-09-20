@@ -1,4 +1,4 @@
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://vishal-ecom-nohn.onrender.com/api';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'localhost:3001/api';
 
 // Debug logging
 console.log('🔍 API Configuration:');
