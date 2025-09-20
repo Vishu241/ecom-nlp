@@ -1,5 +1,11 @@
 const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
 
+// Debug logging
+console.log('🔍 Environment Variables Debug:');
+console.log('REACT_APP_API_URL:', process.env.REACT_APP_API_URL);
+console.log('API_BASE_URL:', API_BASE_URL);
+console.log('NODE_ENV:', process.env.NODE_ENV);
+
 export const searchAPI = {
   // Get all products
   getAllProducts: async () => {
