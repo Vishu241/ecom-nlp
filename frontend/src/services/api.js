@@ -1,10 +1,9 @@
-const API_BASE_URL = process.env.REACT_APP_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = process.env.REACT_APP_API_URL || 'https://vishal-ecom-nohn.onrender.com/api';
 
 // Debug logging
-console.log('🔍 Environment Variables Debug:');
-console.log('REACT_APP_API_URL:', process.env.REACT_APP_API_URL);
+console.log('🔍 API Configuration:');
 console.log('API_BASE_URL:', API_BASE_URL);
-console.log('NODE_ENV:', process.env.NODE_ENV);
+console.log('Backend Status: ✅ Running at https://vishal-ecom-nohn.onrender.com/');
 
 export const searchAPI = {
   // Get all products
